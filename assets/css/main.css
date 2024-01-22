@@ -999,6 +999,13 @@ input, select, textarea {
 			object-position: 25% 75%;
 		}
 
+		.image[data-position="1% 10%"] img {
+			-moz-object-position: 1% 10%;
+			-webkit-object-position: 1% 10%;
+			-ms-object-position: 1% 10%;
+			object-position: 1% 10%;
+		}
+
 		.image img {
 			display: block;
 		}
